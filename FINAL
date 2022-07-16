@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet"href="style.css">
+
+    <style>
+        body{
+            background-image: url('userpic.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        border: rgb(0, 217, 255) 3px;
+        border-style: double;
+        border-radius: 10px;
+            border-radius: 10px;
+
+        }
+        .button{
+            display: inline-flexbox;
+            height: 60px;
+            width: 60px;
+            padding: 0%;
+            border-radius: 5px;
+            verflow: hidden;
+        background-color: rgba(0, 68, 255, 0.438);
+        align-content: center;
+        margin: 3%;
+        border-color: transparent;
+        border-radius: 100px;
+    }
+
+    h1 {
+        border: 5px rgba(0, 255, 255, 0.541);
+        outline-style: outset;
+        outline-color: rgba(0, 255, 255, 0.363);
+        background-color: rgba(0, 255, 255, 0.384);
+        opacity: 65%;
+        border-radius: 50px;
+}
+nav {
+    position: relative; 
+    padding-left: 34px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    border-radius: 10%;
+    border: 20px;
+    border-color: rgba(0, 0, 255, 0.479);
+    opacity: 75%;
+}
+h2 {
+    opacity: 75%;
+    margin-top: 1000;
+    
+}
+td {
+    border-style: solid;
+    border-width:8px;
+    background-color: rgb(225, 0, 255);
+    opacity: 75%;
+    margin-left: 10%;
+    margin-right: 5%;
+    border-radius: 10px;
+    text-align: center;
+    padding-left: 1%;
+    cursor: context-menu;
+    margin: 25%;
+    bottom: 150px;
+    border-bottom: 300;
+    border-color: rgb(225, 0, 255);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.button:hover{
+    background-color:rgba(0, 0, 255, 0.39); transform: scale(1.2);
+}
+td:hover {
+    background-color:rgba(0, 0, 255, 0.377); transform: scale(1.1   );
+    border-color: rgba(0, 0, 255, 0.329); transform: scale(1.1);
+}
+h1:hover{
+    background-color: rgba(0, 0, 255, 0.253); transform: scale(.9);
+}
+td {
+    bottom: 150px;
+}
+#b2:hover{
+        background-color: rgba(0, 0, 255, 0.247); transform: scale(1.2);
+}
+#b1:hover{
+        background-color:rgba(0, 0, 255, 0.39); transform: scale(1.2);
+}
+#p1:hover{
+    background-color: rgba(0, 0, 255, 0.267); transform: scale(1);}
+#p1{
+    background-color: rgb(255, 0, 242);
+    background-size: 20pt;
+    padding: 10px;
+    position: relative;
+    cursor: context-menu;
+    width: 683pt;
+    align-content: center;
+    bottom: 25px;
+    border-radius: 50px;
+}
+#p2:hover{
+    background-color: rgb(0, 255, 221); transform: scale(1);}
+#p2{
+    background-color: rgb(255, 229, 196);
+    background-size: 20pt;
+    padding: 5px;
+    position: relative;
+    cursor: context-menu;
+    width: 683pt;
+    align-content: center;
+    bottom: 28px;
+    border-radius: 50px;    
+}
+
+</style>
+</head>
+<body>
+<center>
+    <h1 style= "border: 5px solid rgba(0, 174, 255, 0.733);"><marquee>USER'S INFORMATION</marquee></h1>
+    <hr></hr><br>
+    <h2 id="p1">EMMANUEL WAVEN LICO</h2><br>
+            <img src="images/Lico.jpg" alt="Home" width="200" height="200">
+</center>
+</body>
+<body>
+<center>
+    <table>
+
+    <tr>
+        <td>PLACE OF BIRTH</td>
+        <td>MONTALBAN RIZAL</td>
+    </tr>
+    <tr>
+        <td>CIVIL STATUS</td>
+        <td>SINGLE</td>
+    </tr>
+    <tr>
+        <td>RELIGION</td>
+        <td>CATHOLIC</td>
+    </tr>
+    <tr>
+        <td>CITIZENSHIP</td>
+        <td>FILIPINO</td>
+    </tr>
+    <tr>
+        <td>HEIGHT</td>
+        <td>5'6</td>
+    </tr>
+</table>
+</center>
+<center>
+    <a href="favorites.html">
+        <button id="b1" type="button" class="button">
+            <span>
+                <img src="http://cdn.onlinewebfonts.com/svg/img_550735.png" alt="Favorites" width="60" height="60">
+            </span>
+        </button>
+    </a>
+    <a href="menu.html">
+        <button id="b2" type="button" class="button">
+            <span>
+                <img src="http://cdn.onlinewebfonts.com/svg/img_159611.png" alt="Home" width="60" height="60">
+            </span>
+        </button>
+    </a>
+    
+    </center>
+    </body>
+    </html>
+    
+    <! DOCTYPE html>
+<head>
+<title>project in ipt</title>
+<link rel="stylesheet"href="style.css">
+
+</head>
+<body>
+
+    <center>
+        <h1><hover> Final Project in Ipt </hover></h1>
+    
+    
+    <a href="ipt act 4.html">
+        
+
+        <button type="button" class="button">
+            <a href="favorites.html">
+            <img src="images/myfavorite.jpg" alt="favorite button"height=100px>
+            </a>
+        
+        </button>
+    </a>
+        <p id="p1"><b>FAVORITES</b> </p>
+
+<a href="user.html">
+    
+    <button type="button" class="button">
+        <img src="images/me.png" alt="user button"height=100px>
+    </button>
+</a>
+    <p id="p1"><b>PERSONAL INFORMATION</b></p>
+
+
+    <button type="button" class="button">
+        <a href="family.html">
+        <img src="images/family.jpg" alt="favorite button"height=100px>
+        </a>
+    
+    </button>
+</a>
+    <p id="p1"><b>FAMILY</b> </p>
+
+</center>
+    </body>
+    </html>
+    
+    <! DOCTYPE html>
+<head>
+<title></title>
+<link rel="stylesheet"href="style.css">
+
+</head>
+<body>
+
+    <center>
+        <h1><marquee>  My Family </marquee></h1>
+    
+    
+    <a href="ipt act 4.html">
+        
+
+        <button type="button" class="button">
+            <a href="papainfo.html">
+            <img src="images/papa1.jpg" alt="favorite button"height=100px>
+            </a>
+        
+        </button>
+    </a>
+        <p id="p1"><b>PAPA</b> </p>
+
+<a href="mamainfo.html">
+    
+    <button type="button" class="button">
+        <img src="images/mama1.jpg" alt="user button"height=100px>
+    </button>
+</a>
+    <p id="p1"><b>MAMA</b></p>
+
+
+    <button type="button" class="button">
+        <a href="SHERWIN.html">
+        <img src="images/ate.jpg" alt="favorite button"height=100px>
+        </a>
+    
+    </button>
+</a>
+    <p id="p1"><b>MARIELLE LICO</b> </p>
+
+    <button type="button" class="button">
+        <a href="SHEENA.html">
+        <img src="images/kuya.jpg" alt="favorite button"height=100px>
+        </a>
+    
+    </button>
+</a>
+    <p id="p1"><b>MATT LICO</b> </p>
+
+    
+</center>
+    </body>
+    </html>
+    
+    <!DOCTYPE html>
+<html>
+<head>
+<title>favorite</title>
+ 
+<style>
+    body {
+        background-image: url('userpic.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        border: rgba(255, 255, 255, 0) 3px;
+        border-style: double;
+        border-radius: 10px;
+    }
+	.button {
+        display: inline-flexbox;
+        height: 60px;
+        width: 60px;
+        padding: 0px;
+        border-radius: 5px;
+        overflow: hidden;
+        background-color: rgb(255, 0, 170);
+        align-content: center;
+        margin: 3%;
+        border-color: transparent;
+        border-radius: 100px;
+    }
+    
+    h1 {
+        border: 5px solid rgba(0, 247, 255, 0.904);
+        outline-style: outset;
+        outline-color: rgb(0,0,255);
+        background-color: rgba(0, 89, 255, 0.322);
+        opacity: 70%;
+        border-radius: 50px;
+    }
+    h3 {
+        background-color: rgb(0, 217, 255);
+        opacity: 70%;
+        border-radius: 10px;
+    }
+    td {
+        word-wrap: break-word;
+        background-color: rgb(0, 204, 255);
+        opacity: 70%;
+        text-align: center  ;
+        border-radius: 50px;
+    }
+    hr {
+        color: rgb(0, 255, 64);
+    }
+    #b2:hover{
+        background-color: rgb(0, 255, 42); transform: scale(1.2);
+    }
+    #b1:hover{
+        background-color:rgb(9, 255, 0); transform: scale(1.2);
+    }
+    .button:hover{
+    background-color:rgb(9, 255, 0); transform: scale(1.2);
+    }
+    h1:hover {background-color: rgba(0, 0, 255, 0.61); transform: scale(1.3);}
+    h3:hover {background-color: rgb(0,0,255); transform: scale(1.3)}
+    td:hover {background-color: rgb(0,0,255); transform: matrix3d(1.3)}
+</style>
+</head>
+<center>
+
+    
+        <h1><marquee>Favorites</marquee></h1>
+        <hr></hr>
+        <h3>Favorites</h4>
+    
+    </center>
+    <body>
+    <form>
+        <center>
+            <table>
+            <hr>
+                <tr>
+                    <td><a href="https://www.facebook.com/profile.php?id=100073724029449" target="_blank"><img src="images/fb.png" width="100" height="150" title="facebook"></a><br>facebook</td>
+                    <td>Facebook sa pamamagitan ng website na ito ay napapadali ang mga proseso para makakonekta sa buong mundo at makakuha ng impormasyon sa lahat sa pamamagitan ng pag sign up. .</td>
+                </tr>
+                <tr>
+                    <td><a href="https://twitter.com" target="_blank"><img src="images/twit.png" width="115" height="115"></a><br>twitter</td>
+                    <td>Alam natin na ang twitter ay nakakatulong sa atin upang maglabas  at magshare ng saloobin sa ating mga followers, pero hindi alam ng iba na ang twitter ang may pinaka “real time news” sa panahon ngayon</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.youtube.com" target="_blank"><img src="images/yt.png" width="100" height="100"></a><br>youtube</td>
+                    <td>Libre ito gamitin at panoodan. Malaki ang naiitulong nito sa ating pang-araw-araw na pamumuhay lalo na sa panahon ngayon marami na ang kumikita gamit ang website na ito.</td>
+                </tr>
+                <tr>
+                    <td><a href="https://www.tiktok.com/" target="_blank"><img src="images/tiktok.jpg" width="120" height="120"></a><br>Spotify</td>
+                    <td>Sa tulong ng website na ito ay mas napapalawak ang kaalaman ng bawat isa pagdating sa larangan ng pagsayaw at paglikha ng magagandang video. Sa panahon ngayon ay gamit na gamit ito ng karamihan lalo na ang mga kabataan dahil nakakapukaw ito ng atensyon ng lahat.  </td>
+                </tr>
+                <tr>
+                    <td><a href="https://animepahe.com/" target="_blank"><img src="images/ap.png" width="100" height="100"></a><br>animepahe</td>
+                    <td>animepahe naman ang aking kasama tuwing manonood ng aking mga paboritong Anime.</td>
+                </tr>
+            </hr>
+            </table>
+        </center>
+    </form>
+    <center>
+        <a href="user.html">
+            <button id="b1" type="button" class="button">
+                <span>
+                    <img src="http://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png" alt="User's Information" width="65" height="65">
+                </span>
+            </button>
+        </a>
+        <a href="menu.html">
+            <button id="b2" type="button" class="button">
+                <span>
+                    <img src="http://cdn.onlinewebfonts.com/svg/img_159611.png" alt="Home" width="67" height="67">
+                </span>
+            </button>
+        </a>
+        
+        </center>
+        </body>
+        </html>
